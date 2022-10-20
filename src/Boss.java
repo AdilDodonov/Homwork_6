@@ -11,9 +11,9 @@ public class Boss extends GameEntity {
         this.weaponBoss = weaponBoss;
     }
 
-    @Override
-    public String printInfo() {
-        return super.printInfo() +  " Weapon BOSS; " + weaponBoss.getNum() + "  " + weaponBoss.getWeapon();
+    public String printInfo(){
+        return "Hp; " + this.getHp() + " Damage; " + this.getDamage() + " Tip; " + weaponBoss.getNum() + " " + weaponBoss.getWeapon();
     }
+
 }
 

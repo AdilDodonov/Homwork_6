@@ -11,7 +11,7 @@ public class Main {
         skelet.setDamage(30);
         skelet.setStrel(6);
         System.out.println("Sklet Hp; " + skelet.getHp() + " Damage; " + skelet.getDamage() + " strela; " + skelet.getStrel());
-        
+
 
         Weapon weapon = new Weapon();
         weapon.setNum(2);

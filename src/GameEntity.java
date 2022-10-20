@@ -18,7 +18,5 @@ public class GameEntity {
     public void setDamage(int damage) {
         Damage = damage;
     }
-    public String printInfo(){
-        return "Hp; " + this.Hp + " Damage; " + this.Damage;
-    }
+
 }
