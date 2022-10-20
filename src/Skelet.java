@@ -11,6 +11,6 @@ public class Skelet extends Boss {
 
     @Override
     public String printInfo() {
-        return super.printInfo() + " strela"+ this.strel ;
+        return super.printInfo() + " strela;  " + this.strel;
     }
 }

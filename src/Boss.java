@@ -12,7 +12,7 @@ public class Boss extends GameEntity {
     }
 
     public String printInfo(){
-        return "Hp; " + this.getHp() + " Damage; " + this.getDamage() + " Tip; " + weaponBoss.getNum() + " " + weaponBoss.getWeapon();
+        return " Hp; " + this.getHp() + " Damage; " + this.getDamage() + " Tip; " + weaponBoss.getNum() + " " + weaponBoss.getWeapon();
     }
 
 }
